@@ -1,2 +1,26 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.holder {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #f53;
+}
